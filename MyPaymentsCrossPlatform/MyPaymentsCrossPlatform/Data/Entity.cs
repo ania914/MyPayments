@@ -11,6 +11,6 @@ namespace DataLayer
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        public bool IsNew { get => Id > 0; }
+        public bool IsNew { get => Id == 0; }
     }
 }

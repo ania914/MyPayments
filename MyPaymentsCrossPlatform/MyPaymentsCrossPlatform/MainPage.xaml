@@ -2,10 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MyPaymentsCrossPlatform"
-             x:Class="MyPaymentsCrossPlatform.MainPage">
+             x:Class="MyPaymentsCrossPlatform.MainPage"
+             Title="My Payments">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Options" Order="Secondary" Text="Options" Priority="0"/>
+    </ContentPage.ToolbarItems>
+    <ListView x:Name="addressListView" Margin="5" ItemSelected="OnListItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Label Text="{Binding FullAddress}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>        
+    </ListView>
 </ContentPage>

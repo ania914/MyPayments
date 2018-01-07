@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,25 @@ namespace MyPaymentsCrossPlatform
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MyPaymentsCrossPlatform.MainPage();
+            
+            MainPage = new NavigationPage(new MyPaymentsCrossPlatform.MainPage());
 		}
 
-		protected override void OnStart ()
+        static PaymentsDatabase database;
+        public static PaymentsDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new PaymentsDatabase(DependencyService.Get<IFileHelper>()
+                        .GetLocalFilePath("PaymentsLite.db3"));
+                }
+                return database;
+            }
+        }
+
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

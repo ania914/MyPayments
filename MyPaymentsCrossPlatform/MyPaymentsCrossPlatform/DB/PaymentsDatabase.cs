@@ -13,10 +13,10 @@ namespace DataLayer
         public PaymentsDatabase(string dbPath)
         {
             db = new SQLiteAsyncConnection(dbPath);
-            db.CreateTableAsync<Address>();
-            db.CreateTableAsync<UtilityBill>();
-            db.CreateTableAsync<MeterReading>();
-            db.CreateTableAsync<Payment>();
+            db.CreateTableAsync<Address>().Wait();
+            db.CreateTableAsync<UtilityBill>().Wait();
+            db.CreateTableAsync<MeterReading>().Wait();
+            db.CreateTableAsync<Payment>().Wait();
         }
 
         public Task<List<T>> GetAll<T>() where T : Entity, new()
