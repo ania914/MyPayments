@@ -28,6 +28,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,8 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="sqlite-net-standard">
-      <Version>1.5.1</Version>
+    <PackageReference Include="SQLiteNetExtensions">
+      <Version>2.0.0</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.121934" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
@@ -84,6 +87,10 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\PCL\PCL.csproj">
+      <Project>{6e13f3ed-e749-49e4-82e2-58c15a7ae2a9}</Project>
+      <Name>PCL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.csproj">
       <Project>{31979142-2A9F-4511-8BC0-7C0317C5F9AF}</Project>
       <Name>MyPaymentsCrossPlatform</Name>

@@ -1,4 +1,5 @@
 ﻿using SQLite;
+using SQLiteNetExtensions.Attributes;
 using System;
 
 namespace DataLayer
@@ -6,10 +7,10 @@ namespace DataLayer
     [Table("Payment")]
     public class Payment : Entity
     {
-       // [ForeignKey(typeof(MeterReading))]
+        [ForeignKey(typeof(MeterReading))]
         public int MeterReadingId { get; set; }
-       // [OneToOne]
-      //  public MeterReading MeterReading { get; set; }
+        [OneToOne]
+        public MeterReading MeterReading { get; set; }
         public double Cost { get; set; }
         public DateTime PaymentDate { get; set; }
     }

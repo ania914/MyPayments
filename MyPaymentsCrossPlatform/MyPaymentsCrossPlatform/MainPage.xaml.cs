@@ -1,9 +1,5 @@
 ﻿using DataLayer;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MyPaymentsCrossPlatform
@@ -20,8 +16,10 @@ namespace MyPaymentsCrossPlatform
             try
             {
                 var address = new Address() { FullAddress = "Test address" };
+                var utility = new UtilityBill() { IdAddress = 1, Address = address, IsConstant = false, Name = "bh" };
                 App.Database.Save(address);
-                addressListView.ItemsSource = await App.Database.GetAll<Address>();
+                App.Database.Save(utility);
+                addressListView.ItemsSource = await App.Database.GetAll<Address>(true);
             }
             catch (Exception ex)
             {

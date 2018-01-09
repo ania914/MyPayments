@@ -26,6 +26,7 @@ namespace MyPaymentsCrossPlatform
                 {
                     database = new PaymentsDatabase(DependencyService.Get<IFileHelper>()
                         .GetLocalFilePath("PaymentsLite.db3"));
+                        //.GetLocalFilePath("PaymentsLite.db3"));
                 }
                 return database;
             }

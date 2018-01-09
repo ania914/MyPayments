@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using SQLiteNetExtensionsAsync.Extensions;
 
 namespace DataLayer
 {
@@ -19,8 +20,8 @@ namespace DataLayer
             db.CreateTableAsync<Payment>().Wait();
         }
 
-        public Task<List<T>> GetAll<T>() where T : Entity, new()
-         => db.Table<T>().ToListAsync();
+        public Task<List<T>> GetAll<T>(bool withChildren = false) where T : Entity, new()
+         => withChildren ? db.GetAllWithChildrenAsync<T>() : db.Table<T>().ToListAsync();
 
         public Task<List<T>> GetAll<T>(Expression<Func<Task, bool>> @where,
             Expression<Func<T, bool>> order = null, bool desc = false,
@@ -41,15 +42,19 @@ namespace DataLayer
         public Task<T> GetById<T>(int id) where T : Entity, new()
             => db.Table<T>().Where(t => t.Id == id).FirstOrDefaultAsync();
 
-        public void Save<T>(T item) where T : Entity, new()
+        public void Save<T>(T item, bool withChildren = false) where T : Entity, new()
         {
-                if (item.IsNew) db.InsertAsync(item);
-                else db.UpdateAsync(item);
+            if (item.IsNew)
+            {
+                if (withChildren) db.InsertWithChildrenAsync(item);
+                else db.InsertAsync(item);
+            }
+            else db.UpdateAsync(item);
         }
 
-        public void Delete<T>(T item) where T : Entity, new()
+        public Task<int> Delete<T>(T item) where T : Entity, new()
         {
-            db.DeleteAsync(item);
+            return db.DeleteAsync(item);
         }
 
         public Task<List<T>> Query<T>(string query) where T : Entity, new()

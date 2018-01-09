@@ -4,10 +4,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPaymentsCrossPlatform.Android", "MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.Android\MyPaymentsCrossPlatform.Android.csproj", "{080D4441-BEDC-467B-A4B9-59657F33AF1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9} = {6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPaymentsCrossPlatform.iOS", "MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.iOS\MyPaymentsCrossPlatform.iOS.csproj", "{A0CD8FD4-D333-42F8-8FD9-852E029EE419}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9} = {6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPaymentsCrossPlatform", "MyPaymentsCrossPlatform\MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.csproj", "{DDF4C01F-882D-47F3-8048-FDF65D414300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPaymentsCrossPlatform", "MyPaymentsCrossPlatform\MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.csproj", "{DDF4C01F-882D-47F3-8048-FDF65D414300}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9} = {6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL", "PCL\PCL.csproj", "{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +116,30 @@ Global
 		{DDF4C01F-882D-47F3-8048-FDF65D414300}.Release|iPhone.Build.0 = Release|Any CPU
 		{DDF4C01F-882D-47F3-8048-FDF65D414300}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{DDF4C01F-882D-47F3-8048-FDF65D414300}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|iPhone.Build.0 = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6E13F3ED-E749-49E4-82E2-58C15A7AE2A9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
