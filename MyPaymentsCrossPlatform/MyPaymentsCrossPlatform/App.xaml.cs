@@ -1,4 +1,5 @@
 ﻿using DataLayer;
+using MyPaymentsCrossPlatform.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,14 +18,28 @@ namespace MyPaymentsCrossPlatform
             MainPage = new NavigationPage(new MyPaymentsCrossPlatform.MainPage());
 		}
 
-        static PaymentsDatabase database;
-        public static PaymentsDatabase Database
+        //static PaymentsDatabase database;
+        //public static PaymentsDatabase Database
+        //{
+        //    get
+        //    {
+        //        if (database == null)
+        //        {
+        //            database = new PaymentsDatabase(DependencyService.Get<IFileHelper>()
+        //                .GetLocalFilePath("PaymentsLite.db3"));
+        //        }
+        //        return database;
+        //    }
+        //}
+
+        static PaymentsContext database;
+        public static PaymentsContext Database
         {
             get
             {
                 if (database == null)
                 {
-                    database = new PaymentsDatabase(DependencyService.Get<IFileHelper>()
+                    database = new PaymentsContext(DependencyService.Get<IFileHelper>()
                         .GetLocalFilePath("PaymentsLite.db3"));
                 }
                 return database;

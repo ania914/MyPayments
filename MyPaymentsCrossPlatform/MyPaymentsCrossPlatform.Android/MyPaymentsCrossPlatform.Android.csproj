@@ -31,6 +31,7 @@
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
+	 <NoWarn>$(NoWarn);NU1605</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>2.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
+      <Version>2.0.1</Version>
+    </PackageReference>
     <PackageReference Include="SQLiteNetExtensions">
       <Version>2.0.0</Version>
     </PackageReference>
@@ -59,6 +66,7 @@
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
+	<PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileHelper.cs" />
@@ -87,10 +95,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PCL\PCL.csproj">
-      <Project>{6e13f3ed-e749-49e4-82e2-58c15a7ae2a9}</Project>
-      <Name>PCL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MyPaymentsCrossPlatform\MyPaymentsCrossPlatform.csproj">
       <Project>{31979142-2A9F-4511-8BC0-7C0317C5F9AF}</Project>
       <Name>MyPaymentsCrossPlatform</Name>
