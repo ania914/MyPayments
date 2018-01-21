@@ -26,6 +26,2177 @@ namespace MyPaymentsCrossPlatform.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Refractored.Fab.Resource.Attribute.fab_colorDisabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorDisabled;
+			global::Refractored.Fab.Resource.Attribute.fab_colorNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorNormal;
+			global::Refractored.Fab.Resource.Attribute.fab_colorPressed = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorPressed;
+			global::Refractored.Fab.Resource.Attribute.fab_colorRipple = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorRipple;
+			global::Refractored.Fab.Resource.Attribute.fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_shadow;
+			global::Refractored.Fab.Resource.Attribute.fab_size = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_size;
+			global::Refractored.Fab.Resource.Attribute.layoutManager = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layoutManager;
+			global::Refractored.Fab.Resource.Attribute.reverseLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.reverseLayout;
+			global::Refractored.Fab.Resource.Attribute.spanCount = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.spanCount;
+			global::Refractored.Fab.Resource.Attribute.stackFromEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.stackFromEnd;
+			global::Refractored.Fab.Resource.Color.fab_material_blue_500 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.fab_material_blue_500;
+			global::Refractored.Fab.Resource.Dimension.fab_elevation_lollipop = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_elevation_lollipop;
+			global::Refractored.Fab.Resource.Dimension.fab_scroll_threshold = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_scroll_threshold;
+			global::Refractored.Fab.Resource.Dimension.fab_shadow_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_shadow_size;
+			global::Refractored.Fab.Resource.Dimension.fab_size_mini = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_size_mini;
+			global::Refractored.Fab.Resource.Dimension.fab_size_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_size_normal;
+			global::Refractored.Fab.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Refractored.Fab.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Refractored.Fab.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Refractored.Fab.Resource.Drawable.fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.fab_shadow;
+			global::Refractored.Fab.Resource.Drawable.fab_shadow_mini = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.fab_shadow_mini;
+			global::Refractored.Fab.Resource.Id.item_touch_helper_previous_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Refractored.Fab.Resource.Id.mini = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mini;
+			global::Refractored.Fab.Resource.Id.normal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.normal;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_colorDisabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_colorNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_colorPressed = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_shadow;
+			global::Refractored.Fab.Resource.Styleable.FloatingActionButton_fab_size = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_size;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_android_orientation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_layoutManager = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_reverseLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_spanCount = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Refractored.Fab.Resource.Styleable.RecyclerView_stackFromEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_fade_in = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_fade_in;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_fade_out = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_fade_out;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_popup_enter = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_popup_enter;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_popup_exit = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_popup_exit;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_slide_in_bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_slide_in_top = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_slide_in_top;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_slide_out_bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Refractored.FabControl.Droid.Resource.Animation.abc_slide_out_top = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.abc_slide_out_top;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_fab_in = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_fab_in;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_fab_out = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_fab_out;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_snackbar_in = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_snackbar_in;
+			global::Refractored.FabControl.Droid.Resource.Animation.design_snackbar_out = global::MyPaymentsCrossPlatform.Droid.Resource.Animation.design_snackbar_out;
+			global::Refractored.FabControl.Droid.Resource.Animator.design_appbar_state_list_animator = global::MyPaymentsCrossPlatform.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarDivider = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarDivider;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarItemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarPopupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarSize = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarSize;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarSplitStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarTabBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarTabStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarTabTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionBarWidgetTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionDropDownStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionMenuTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionMenuTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeCloseDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeCopyDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeCutDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeFindDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModePasteDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeShareDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeSplitBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionProviderClass = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionProviderClass;
+			global::Refractored.FabControl.Droid.Resource.Attribute.actionViewClass = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionViewClass;
+			global::Refractored.FabControl.Droid.Resource.Attribute.activityChooserViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.alertDialogCenterButtons = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Refractored.FabControl.Droid.Resource.Attribute.alertDialogStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.alertDialogStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.alertDialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.alertDialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.allowStacking = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.allowStacking;
+			global::Refractored.FabControl.Droid.Resource.Attribute.alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.alpha;
+			global::Refractored.FabControl.Droid.Resource.Attribute.arrowHeadLength = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.arrowHeadLength;
+			global::Refractored.FabControl.Droid.Resource.Attribute.arrowShaftLength = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.arrowShaftLength;
+			global::Refractored.FabControl.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.background = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.background;
+			global::Refractored.FabControl.Droid.Resource.Attribute.backgroundSplit = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.backgroundSplit;
+			global::Refractored.FabControl.Droid.Resource.Attribute.backgroundStacked = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.backgroundStacked;
+			global::Refractored.FabControl.Droid.Resource.Attribute.backgroundTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.backgroundTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.backgroundTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.backgroundTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.barLength = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.barLength;
+			global::Refractored.FabControl.Droid.Resource.Attribute.behavior_autoHide = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.behavior_autoHide;
+			global::Refractored.FabControl.Droid.Resource.Attribute.behavior_hideable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.behavior_hideable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.behavior_overlapTop = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Refractored.FabControl.Droid.Resource.Attribute.behavior_peekHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.behavior_skipCollapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Refractored.FabControl.Droid.Resource.Attribute.borderWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.borderWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.borderlessButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.bottomSheetStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonBarButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonGravity;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonPanelSideLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonStyleSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.buttonTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.buttonTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardBackgroundColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardCornerRadius = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardCornerRadius;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardElevation = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardElevation;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardMaxElevation = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardMaxElevation;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Refractored.FabControl.Droid.Resource.Attribute.cardUseCompatPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.checkboxStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.checkboxStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.checkedTextViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.closeIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.closeIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.closeItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.closeItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.collapseContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.collapseContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Attribute.collapseIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.collapseIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.collapsedTitleGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Refractored.FabControl.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.color = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.color;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorAccent = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorAccent;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorBackgroundFloating = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorButtonNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorButtonNormal;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorControlActivated = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorControlActivated;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorControlHighlight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorControlHighlight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorControlNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorControlNormal;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorPrimary = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorPrimary;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorPrimaryDark = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Refractored.FabControl.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Refractored.FabControl.Droid.Resource.Attribute.commitIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.commitIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetEndWithActions = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetLeft;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetRight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetRight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentPaddingBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentPaddingLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentPaddingRight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentPaddingRight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentPaddingTop = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentPaddingTop;
+			global::Refractored.FabControl.Droid.Resource.Attribute.contentScrim = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.contentScrim;
+			global::Refractored.FabControl.Droid.Resource.Attribute.controlBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.controlBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.counterEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.counterEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.counterMaxLength = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.counterMaxLength;
+			global::Refractored.FabControl.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.counterTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.counterTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.customNavigationLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.customNavigationLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.defaultQueryHint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.defaultQueryHint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dialogPreferredPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.displayOptions = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.displayOptions;
+			global::Refractored.FabControl.Droid.Resource.Attribute.divider = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.divider;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dividerHorizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dividerHorizontal;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dividerPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dividerPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dividerVertical = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dividerVertical;
+			global::Refractored.FabControl.Droid.Resource.Attribute.drawableSize = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.drawableSize;
+			global::Refractored.FabControl.Droid.Resource.Attribute.drawerArrowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dropDownListViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.editTextBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.editTextBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.editTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.editTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.editTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.editTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.elevation;
+			global::Refractored.FabControl.Droid.Resource.Attribute.errorEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.errorEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.errorTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.errorTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expanded = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expanded;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleMargin = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleMarginStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleMarginTop = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Refractored.FabControl.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fabSize = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fabSize;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_colorDisabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorDisabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_colorNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorNormal;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_colorPressed = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorPressed;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_colorRipple = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_colorRipple;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_shadow;
+			global::Refractored.FabControl.Droid.Resource.Attribute.fab_size = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.fab_size;
+			global::Refractored.FabControl.Droid.Resource.Attribute.foregroundInsidePadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.gapBetweenBars = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.gapBetweenBars;
+			global::Refractored.FabControl.Droid.Resource.Attribute.goIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.goIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.headerLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.headerLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.height = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.height;
+			global::Refractored.FabControl.Droid.Resource.Attribute.hideOnContentScroll = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Refractored.FabControl.Droid.Resource.Attribute.hintAnimationEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.hintEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.hintEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.hintTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.hintTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.homeAsUpIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Refractored.FabControl.Droid.Resource.Attribute.homeLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.homeLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.icon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.icon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.iconifiedByDefault = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Refractored.FabControl.Droid.Resource.Attribute.imageButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.imageButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.indeterminateProgressStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.initialActivityCount = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.initialActivityCount;
+			global::Refractored.FabControl.Droid.Resource.Attribute.insetForeground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.insetForeground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.isLightTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.isLightTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.itemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.itemBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.itemIconTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.itemIconTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.itemPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.itemPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.itemTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.itemTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.itemTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.itemTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.keylines = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.keylines;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layoutManager = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layoutManager;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_anchor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_anchor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_anchorGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_behavior = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_behavior;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_collapseMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_collapseMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_insetEdge = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_insetEdge;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_keyline = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_keyline;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_scrollFlags = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Refractored.FabControl.Droid.Resource.Attribute.layout_scrollInterpolator = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listDividerAlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listMenuViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPopupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPreferredItemHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Refractored.FabControl.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.logo = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.logo;
+			global::Refractored.FabControl.Droid.Resource.Attribute.logoDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.logoDescription;
+			global::Refractored.FabControl.Droid.Resource.Attribute.maxActionInlineWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.maxButtonHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.maxButtonHeight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.measureWithLargestChild = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteStopDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.menu = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.menu;
+			global::Refractored.FabControl.Droid.Resource.Attribute.multiChoiceItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.navigationContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.navigationContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Attribute.navigationIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.navigationIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.navigationMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.navigationMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.overlapAnchor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.overlapAnchor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.paddingBottomNoButtons = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Refractored.FabControl.Droid.Resource.Attribute.paddingEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.paddingEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.paddingStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.paddingStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.paddingTopNoTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.panelBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.panelBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.panelMenuListTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.panelMenuListWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.passwordToggleContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Attribute.passwordToggleDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Refractored.FabControl.Droid.Resource.Attribute.passwordToggleEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.passwordToggleTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.passwordToggleTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.passwordToggleTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.popupMenuStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.popupMenuStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.popupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.popupTheme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.popupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.popupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.preserveIconSpacing = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Refractored.FabControl.Droid.Resource.Attribute.pressedTranslationZ = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Refractored.FabControl.Droid.Resource.Attribute.progressBarPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.progressBarPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.progressBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.progressBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.queryBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.queryBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.queryHint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.queryHint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.radioButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.radioButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.ratingBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.ratingBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Refractored.FabControl.Droid.Resource.Attribute.ratingBarStyleSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Refractored.FabControl.Droid.Resource.Attribute.reverseLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.reverseLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.rippleColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.rippleColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.scrimAnimationDuration = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Refractored.FabControl.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Refractored.FabControl.Droid.Resource.Attribute.searchHintIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.searchHintIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.searchIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.searchIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.searchViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.searchViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.seekBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.seekBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.selectableItemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.selectableItemBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Refractored.FabControl.Droid.Resource.Attribute.showAsAction = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.showAsAction;
+			global::Refractored.FabControl.Droid.Resource.Attribute.showDividers = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.showDividers;
+			global::Refractored.FabControl.Droid.Resource.Attribute.showText = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.showText;
+			global::Refractored.FabControl.Droid.Resource.Attribute.showTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.showTitle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.singleChoiceItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.spanCount = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.spanCount;
+			global::Refractored.FabControl.Droid.Resource.Attribute.spinBars = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.spinBars;
+			global::Refractored.FabControl.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.spinnerStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.spinnerStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.splitTrack = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.splitTrack;
+			global::Refractored.FabControl.Droid.Resource.Attribute.srcCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.srcCompat;
+			global::Refractored.FabControl.Droid.Resource.Attribute.stackFromEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.stackFromEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.state_above_anchor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.state_above_anchor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.state_collapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.state_collapsed;
+			global::Refractored.FabControl.Droid.Resource.Attribute.state_collapsible = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.state_collapsible;
+			global::Refractored.FabControl.Droid.Resource.Attribute.statusBarBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.statusBarBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.statusBarScrim = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.statusBarScrim;
+			global::Refractored.FabControl.Droid.Resource.Attribute.subMenuArrow = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.subMenuArrow;
+			global::Refractored.FabControl.Droid.Resource.Attribute.submitBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.submitBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.subtitle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.subtitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.subtitleTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.subtitleTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.subtitleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.suggestionRowLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Refractored.FabControl.Droid.Resource.Attribute.switchMinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.switchMinWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.switchPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.switchPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.switchStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.switchStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.switchTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.switchTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabBackground;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabContentStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabContentStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabGravity;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabIndicatorColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabIndicatorHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabMaxWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabMaxWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabMinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabMinWidth;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabPaddingBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabPaddingEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabPaddingStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabPaddingStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabPaddingTop = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabPaddingTop;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabSelectedTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tabTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tabTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAllCaps = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAllCaps;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceListItem = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textColorError = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textColorError;
+			global::Refractored.FabControl.Droid.Resource.Attribute.textColorSearchUrl = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Refractored.FabControl.Droid.Resource.Attribute.theme = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.theme;
+			global::Refractored.FabControl.Droid.Resource.Attribute.thickness = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.thickness;
+			global::Refractored.FabControl.Droid.Resource.Attribute.thumbTextPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.thumbTextPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.thumbTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.thumbTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.thumbTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.thumbTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tickMark = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tickMark;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tickMarkTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tickMarkTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tickMarkTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.tintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.tintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.title = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.title;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleEnabled;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMargin = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMargin;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMarginBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMarginBottom;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMarginEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMarginEnd;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMarginStart = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMarginStart;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMarginTop = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMarginTop;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleMargins = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleMargins;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleTextColor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.titleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.titleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.toolbarId = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.toolbarId;
+			global::Refractored.FabControl.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.toolbarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.toolbarStyle;
+			global::Refractored.FabControl.Droid.Resource.Attribute.track = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.track;
+			global::Refractored.FabControl.Droid.Resource.Attribute.trackTint = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.trackTint;
+			global::Refractored.FabControl.Droid.Resource.Attribute.trackTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.trackTintMode;
+			global::Refractored.FabControl.Droid.Resource.Attribute.useCompatPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.useCompatPadding;
+			global::Refractored.FabControl.Droid.Resource.Attribute.voiceIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.voiceIcon;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowActionBar;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowActionBarOverlay = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowActionModeOverlay = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowFixedHeightMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowFixedHeightMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowFixedWidthMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowFixedWidthMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowMinWidthMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowMinWidthMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Refractored.FabControl.Droid.Resource.Attribute.windowNoTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.windowNoTitle;
+			global::Refractored.FabControl.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MyPaymentsCrossPlatform.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Refractored.FabControl.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Refractored.FabControl.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MyPaymentsCrossPlatform.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Refractored.FabControl.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MyPaymentsCrossPlatform.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Refractored.FabControl.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MyPaymentsCrossPlatform.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_btn_colored_text_material = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_color_highlight_material = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_color_highlight_material;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_hint_foreground_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_hint_foreground_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_input_method_navigation_guard = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_primary_text_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_primary_text_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_search_url_text = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_search_url_text;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_search_url_text_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_search_url_text_pressed = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_search_url_text_selected = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_secondary_text_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_secondary_text_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_btn_checkable = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_default = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_default;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_edittext = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_edittext;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_seek_thumb = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_spinner;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_switch_thumb = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::Refractored.FabControl.Droid.Resource.Color.abc_tint_switch_track = global::MyPaymentsCrossPlatform.Droid.Resource.Color.abc_tint_switch_track;
+			global::Refractored.FabControl.Droid.Resource.Color.accent_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.accent_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.accent_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.accent_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.background_floating_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.background_floating_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.background_floating_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.background_floating_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.background_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.background_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.background_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.background_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.bright_foreground_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.bright_foreground_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.button_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.button_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.button_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.button_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.cardview_dark_background = global::MyPaymentsCrossPlatform.Droid.Resource.Color.cardview_dark_background;
+			global::Refractored.FabControl.Droid.Resource.Color.cardview_light_background = global::MyPaymentsCrossPlatform.Droid.Resource.Color.cardview_light_background;
+			global::Refractored.FabControl.Droid.Resource.Color.cardview_shadow_end_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Refractored.FabControl.Droid.Resource.Color.cardview_shadow_start_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_error = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_error;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_shadow_end_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_shadow_mid_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_shadow_start_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_snackbar_background_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_snackbar_background_color;
+			global::Refractored.FabControl.Droid.Resource.Color.design_textinput_error_color_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.design_textinput_error_color_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Refractored.FabControl.Droid.Resource.Color.design_tint_password_toggle = global::MyPaymentsCrossPlatform.Droid.Resource.Color.design_tint_password_toggle;
+			global::Refractored.FabControl.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.dim_foreground_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.dim_foreground_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.dim_foreground_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.fab_material_blue_500 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.fab_material_blue_500;
+			global::Refractored.FabControl.Droid.Resource.Color.foreground_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.foreground_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.foreground_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.foreground_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.highlighted_text_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.highlighted_text_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.highlighted_text_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.material_blue_grey_800 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_blue_grey_800;
+			global::Refractored.FabControl.Droid.Resource.Color.material_blue_grey_900 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_blue_grey_900;
+			global::Refractored.FabControl.Droid.Resource.Color.material_blue_grey_950 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_blue_grey_950;
+			global::Refractored.FabControl.Droid.Resource.Color.material_deep_teal_200 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_deep_teal_200;
+			global::Refractored.FabControl.Droid.Resource.Color.material_deep_teal_500 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_deep_teal_500;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_100 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_100;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_300 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_300;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_50 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_50;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_600 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_600;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_800 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_800;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_850 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_850;
+			global::Refractored.FabControl.Droid.Resource.Color.material_grey_900 = global::MyPaymentsCrossPlatform.Droid.Resource.Color.material_grey_900;
+			global::Refractored.FabControl.Droid.Resource.Color.notification_action_color_filter = global::MyPaymentsCrossPlatform.Droid.Resource.Color.notification_action_color_filter;
+			global::Refractored.FabControl.Droid.Resource.Color.notification_icon_bg_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.notification_icon_bg_color;
+			global::Refractored.FabControl.Droid.Resource.Color.notification_material_background_media_default_color = global::MyPaymentsCrossPlatform.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_dark_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_dark_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_dark_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_dark_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_text_default_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_text_default_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_text_default_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_text_disabled_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.primary_text_disabled_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.ripple_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.ripple_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.ripple_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.ripple_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.secondary_text_default_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.secondary_text_default_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.secondary_text_disabled_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_material_light;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Color.switch_thumb_normal_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_control_corner_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_control_inset_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_control_padding_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_padding_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_floating_window_z = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_progress_bar_height_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_search_view_preferred_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_switch_padding = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_switch_padding;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_button_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_caption_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_headline_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_large_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_medium_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_menu_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_small_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_title_material = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Refractored.FabControl.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Refractored.FabControl.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Refractored.FabControl.Droid.Resource.Dimension.cardview_default_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.cardview_default_radius = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.cardview_default_radius;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_appbar_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_margin = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_border_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_border_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_image_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_image_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_size_mini = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_size_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_icon_padding = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_icon_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_min_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_snackbar_text_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_tab_max_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_tab_max_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_tab_text_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_tab_text_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.design_tab_text_size_2line = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Refractored.FabControl.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Dimension.disabled_alpha_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.fab_elevation_lollipop = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_elevation_lollipop;
+			global::Refractored.FabControl.Droid.Resource.Dimension.fab_scroll_threshold = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_scroll_threshold;
+			global::Refractored.FabControl.Droid.Resource.Dimension.fab_shadow_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_shadow_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.fab_size_mini = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_size_mini;
+			global::Refractored.FabControl.Droid.Resource.Dimension.fab_size_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.fab_size_normal;
+			global::Refractored.FabControl.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Refractored.FabControl.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Dimension.highlight_alpha_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.hint_alpha_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Dimension.hint_alpha_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Refractored.FabControl.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Refractored.FabControl.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Refractored.FabControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Refractored.FabControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Refractored.FabControl.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_action_icon_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_action_text_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_action_text_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_big_circle_margin = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_content_margin_start = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_large_icon_height = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_large_icon_width = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_main_column_padding_top = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_media_narrow_margin = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_right_icon_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_right_side_padding_top = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_small_icon_background_padding = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_subtext_size = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_subtext_size;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_top_pad = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_top_pad;
+			global::Refractored.FabControl.Droid.Resource.Dimension.notification_top_pad_large_text = global::MyPaymentsCrossPlatform.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_borderless_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_check_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_colored_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_radio_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_cab_background_top_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_control_background_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_control_background_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_dialog_material_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_edit_text_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_ab_back_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_clear_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_search_api_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_item_background_holo_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_focused_holo = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ratingbar_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_seekbar_track_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_switch_thumb_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_tab_indicator_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_cursor_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_textfield_search_material = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Refractored.FabControl.Droid.Resource.Drawable.abc_vector_test = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.abc_vector_test;
+			global::Refractored.FabControl.Droid.Resource.Drawable.avd_hide_password = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.avd_hide_password;
+			global::Refractored.FabControl.Droid.Resource.Drawable.avd_show_password = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.avd_show_password;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_fab_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_fab_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_ic_visibility = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_ic_visibility;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_ic_visibility_off = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_password_eye = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_password_eye;
+			global::Refractored.FabControl.Droid.Resource.Drawable.design_snackbar_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.design_snackbar_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.fab_shadow;
+			global::Refractored.FabControl.Droid.Resource.Drawable.fab_shadow_mini = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.fab_shadow_mini;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_audiotrack_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_audiotrack_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_dialog_close_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_dialog_close_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_00 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_01 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_02 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_03 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_04 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_05 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_06 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_07 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_08 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_09 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_10 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_11 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_12 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_13 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_14 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_collapse_15 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_00 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_01 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_02 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_03 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_04 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_05 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_06 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_07 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_08 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_09 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_10 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_11 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_12 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_13 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_14 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_group_expand_15 = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_pause_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_pause_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_play_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_play_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_play_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_stop_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_media_stop_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_mr_button_grey = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.ic_vol_type_tv_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_connected_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_connected_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_connecting_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_connecting_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_button_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_button_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_dialog_close_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_dialog_close_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_dialog_material_background_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_group_collapse = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_group_collapse;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_group_expand = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_group_expand;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_pause_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_pause_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_play_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_play_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_play_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_stop_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_media_stop_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Refractored.FabControl.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Refractored.FabControl.Droid.Resource.Drawable.navigation_empty_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_action_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_action_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg_low = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg_low;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg_low_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg_low_pressed = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg_normal = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg_normal;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_bg_normal_pressed = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_icon_background = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_icon_background;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_template_icon_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_template_icon_low_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notification_tile_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notification_tile_bg;
+			global::Refractored.FabControl.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::MyPaymentsCrossPlatform.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Refractored.FabControl.Droid.Resource.Id.action0 = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action0;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_activity_content = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_activity_content;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_container;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_root = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_root;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_spinner;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_subtitle;
+			global::Refractored.FabControl.Droid.Resource.Id.action_bar_title = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_bar_title;
+			global::Refractored.FabControl.Droid.Resource.Id.action_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_container;
+			global::Refractored.FabControl.Droid.Resource.Id.action_context_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_context_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.action_divider = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_divider;
+			global::Refractored.FabControl.Droid.Resource.Id.action_image = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_image;
+			global::Refractored.FabControl.Droid.Resource.Id.action_menu_divider = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_menu_divider;
+			global::Refractored.FabControl.Droid.Resource.Id.action_menu_presenter = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_menu_presenter;
+			global::Refractored.FabControl.Droid.Resource.Id.action_mode_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_mode_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.action_mode_bar_stub = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_mode_bar_stub;
+			global::Refractored.FabControl.Droid.Resource.Id.action_mode_close_button = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_mode_close_button;
+			global::Refractored.FabControl.Droid.Resource.Id.action_text = global::MyPaymentsCrossPlatform.Droid.Resource.Id.action_text;
+			global::Refractored.FabControl.Droid.Resource.Id.actions = global::MyPaymentsCrossPlatform.Droid.Resource.Id.actions;
+			global::Refractored.FabControl.Droid.Resource.Id.activity_chooser_view_content = global::MyPaymentsCrossPlatform.Droid.Resource.Id.activity_chooser_view_content;
+			global::Refractored.FabControl.Droid.Resource.Id.add = global::MyPaymentsCrossPlatform.Droid.Resource.Id.add;
+			global::Refractored.FabControl.Droid.Resource.Id.alertTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.alertTitle;
+			global::Refractored.FabControl.Droid.Resource.Id.all = global::MyPaymentsCrossPlatform.Droid.Resource.Id.all;
+			global::Refractored.FabControl.Droid.Resource.Id.always = global::MyPaymentsCrossPlatform.Droid.Resource.Id.always;
+			global::Refractored.FabControl.Droid.Resource.Id.auto = global::MyPaymentsCrossPlatform.Droid.Resource.Id.auto;
+			global::Refractored.FabControl.Droid.Resource.Id.beginning = global::MyPaymentsCrossPlatform.Droid.Resource.Id.beginning;
+			global::Refractored.FabControl.Droid.Resource.Id.bottom = global::MyPaymentsCrossPlatform.Droid.Resource.Id.bottom;
+			global::Refractored.FabControl.Droid.Resource.Id.buttonPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.buttonPanel;
+			global::Refractored.FabControl.Droid.Resource.Id.cancel_action = global::MyPaymentsCrossPlatform.Droid.Resource.Id.cancel_action;
+			global::Refractored.FabControl.Droid.Resource.Id.center = global::MyPaymentsCrossPlatform.Droid.Resource.Id.center;
+			global::Refractored.FabControl.Droid.Resource.Id.center_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.center_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Id.center_vertical = global::MyPaymentsCrossPlatform.Droid.Resource.Id.center_vertical;
+			global::Refractored.FabControl.Droid.Resource.Id.checkbox = global::MyPaymentsCrossPlatform.Droid.Resource.Id.checkbox;
+			global::Refractored.FabControl.Droid.Resource.Id.chronometer = global::MyPaymentsCrossPlatform.Droid.Resource.Id.chronometer;
+			global::Refractored.FabControl.Droid.Resource.Id.clip_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.clip_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Id.clip_vertical = global::MyPaymentsCrossPlatform.Droid.Resource.Id.clip_vertical;
+			global::Refractored.FabControl.Droid.Resource.Id.collapseActionView = global::MyPaymentsCrossPlatform.Droid.Resource.Id.collapseActionView;
+			global::Refractored.FabControl.Droid.Resource.Id.container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.container;
+			global::Refractored.FabControl.Droid.Resource.Id.contentPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.contentPanel;
+			global::Refractored.FabControl.Droid.Resource.Id.coordinator = global::MyPaymentsCrossPlatform.Droid.Resource.Id.coordinator;
+			global::Refractored.FabControl.Droid.Resource.Id.custom = global::MyPaymentsCrossPlatform.Droid.Resource.Id.custom;
+			global::Refractored.FabControl.Droid.Resource.Id.customPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.customPanel;
+			global::Refractored.FabControl.Droid.Resource.Id.decor_content_parent = global::MyPaymentsCrossPlatform.Droid.Resource.Id.decor_content_parent;
+			global::Refractored.FabControl.Droid.Resource.Id.default_activity_button = global::MyPaymentsCrossPlatform.Droid.Resource.Id.default_activity_button;
+			global::Refractored.FabControl.Droid.Resource.Id.design_bottom_sheet = global::MyPaymentsCrossPlatform.Droid.Resource.Id.design_bottom_sheet;
+			global::Refractored.FabControl.Droid.Resource.Id.design_menu_item_action_area = global::MyPaymentsCrossPlatform.Droid.Resource.Id.design_menu_item_action_area;
+			global::Refractored.FabControl.Droid.Resource.Id.design_menu_item_action_area_stub = global::MyPaymentsCrossPlatform.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Refractored.FabControl.Droid.Resource.Id.design_menu_item_text = global::MyPaymentsCrossPlatform.Droid.Resource.Id.design_menu_item_text;
+			global::Refractored.FabControl.Droid.Resource.Id.design_navigation_view = global::MyPaymentsCrossPlatform.Droid.Resource.Id.design_navigation_view;
+			global::Refractored.FabControl.Droid.Resource.Id.disableHome = global::MyPaymentsCrossPlatform.Droid.Resource.Id.disableHome;
+			global::Refractored.FabControl.Droid.Resource.Id.edit_query = global::MyPaymentsCrossPlatform.Droid.Resource.Id.edit_query;
+			global::Refractored.FabControl.Droid.Resource.Id.end = global::MyPaymentsCrossPlatform.Droid.Resource.Id.end;
+			global::Refractored.FabControl.Droid.Resource.Id.end_padder = global::MyPaymentsCrossPlatform.Droid.Resource.Id.end_padder;
+			global::Refractored.FabControl.Droid.Resource.Id.enterAlways = global::MyPaymentsCrossPlatform.Droid.Resource.Id.enterAlways;
+			global::Refractored.FabControl.Droid.Resource.Id.enterAlwaysCollapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Refractored.FabControl.Droid.Resource.Id.exitUntilCollapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Id.exitUntilCollapsed;
+			global::Refractored.FabControl.Droid.Resource.Id.expand_activities_button = global::MyPaymentsCrossPlatform.Droid.Resource.Id.expand_activities_button;
+			global::Refractored.FabControl.Droid.Resource.Id.expanded_menu = global::MyPaymentsCrossPlatform.Droid.Resource.Id.expanded_menu;
+			global::Refractored.FabControl.Droid.Resource.Id.fill = global::MyPaymentsCrossPlatform.Droid.Resource.Id.fill;
+			global::Refractored.FabControl.Droid.Resource.Id.fill_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.fill_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Id.fill_vertical = global::MyPaymentsCrossPlatform.Droid.Resource.Id.fill_vertical;
+			global::Refractored.FabControl.Droid.Resource.Id.@fixed = global::MyPaymentsCrossPlatform.Droid.Resource.Id.@fixed;
+			global::Refractored.FabControl.Droid.Resource.Id.home = global::MyPaymentsCrossPlatform.Droid.Resource.Id.home;
+			global::Refractored.FabControl.Droid.Resource.Id.homeAsUp = global::MyPaymentsCrossPlatform.Droid.Resource.Id.homeAsUp;
+			global::Refractored.FabControl.Droid.Resource.Id.icon = global::MyPaymentsCrossPlatform.Droid.Resource.Id.icon;
+			global::Refractored.FabControl.Droid.Resource.Id.icon_group = global::MyPaymentsCrossPlatform.Droid.Resource.Id.icon_group;
+			global::Refractored.FabControl.Droid.Resource.Id.ifRoom = global::MyPaymentsCrossPlatform.Droid.Resource.Id.ifRoom;
+			global::Refractored.FabControl.Droid.Resource.Id.image = global::MyPaymentsCrossPlatform.Droid.Resource.Id.image;
+			global::Refractored.FabControl.Droid.Resource.Id.info = global::MyPaymentsCrossPlatform.Droid.Resource.Id.info;
+			global::Refractored.FabControl.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Refractored.FabControl.Droid.Resource.Id.largeLabel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.largeLabel;
+			global::Refractored.FabControl.Droid.Resource.Id.left = global::MyPaymentsCrossPlatform.Droid.Resource.Id.left;
+			global::Refractored.FabControl.Droid.Resource.Id.line1 = global::MyPaymentsCrossPlatform.Droid.Resource.Id.line1;
+			global::Refractored.FabControl.Droid.Resource.Id.line3 = global::MyPaymentsCrossPlatform.Droid.Resource.Id.line3;
+			global::Refractored.FabControl.Droid.Resource.Id.listMode = global::MyPaymentsCrossPlatform.Droid.Resource.Id.listMode;
+			global::Refractored.FabControl.Droid.Resource.Id.list_item = global::MyPaymentsCrossPlatform.Droid.Resource.Id.list_item;
+			global::Refractored.FabControl.Droid.Resource.Id.masked = global::MyPaymentsCrossPlatform.Droid.Resource.Id.masked;
+			global::Refractored.FabControl.Droid.Resource.Id.media_actions = global::MyPaymentsCrossPlatform.Droid.Resource.Id.media_actions;
+			global::Refractored.FabControl.Droid.Resource.Id.middle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.middle;
+			global::Refractored.FabControl.Droid.Resource.Id.mini = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mini;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_art = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_art;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_chooser_list = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_chooser_list;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_chooser_route_desc = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_chooser_route_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_chooser_route_name = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_chooser_route_name;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_chooser_title = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_chooser_title;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_close = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_close;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_control_divider = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_control_divider;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_control_playback_ctrl = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_control_subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_control_subtitle;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_control_title = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_control_title;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_control_title_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_control_title_container;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_custom_control = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_custom_control;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_default_control = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_default_control;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_dialog_area = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_dialog_area;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_expandable_area = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_expandable_area;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_group_expand_collapse = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_media_main_control = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_media_main_control;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_name = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_name;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_playback_control = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_playback_control;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_title_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_title_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_volume_control = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_volume_control;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_volume_group_list = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_volume_group_list;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_volume_item_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_volume_item_icon;
+			global::Refractored.FabControl.Droid.Resource.Id.mr_volume_slider = global::MyPaymentsCrossPlatform.Droid.Resource.Id.mr_volume_slider;
+			global::Refractored.FabControl.Droid.Resource.Id.multiply = global::MyPaymentsCrossPlatform.Droid.Resource.Id.multiply;
+			global::Refractored.FabControl.Droid.Resource.Id.navigation_header_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.navigation_header_container;
+			global::Refractored.FabControl.Droid.Resource.Id.never = global::MyPaymentsCrossPlatform.Droid.Resource.Id.never;
+			global::Refractored.FabControl.Droid.Resource.Id.none = global::MyPaymentsCrossPlatform.Droid.Resource.Id.none;
+			global::Refractored.FabControl.Droid.Resource.Id.normal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.normal;
+			global::Refractored.FabControl.Droid.Resource.Id.notification_background = global::MyPaymentsCrossPlatform.Droid.Resource.Id.notification_background;
+			global::Refractored.FabControl.Droid.Resource.Id.notification_main_column = global::MyPaymentsCrossPlatform.Droid.Resource.Id.notification_main_column;
+			global::Refractored.FabControl.Droid.Resource.Id.notification_main_column_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.notification_main_column_container;
+			global::Refractored.FabControl.Droid.Resource.Id.parallax = global::MyPaymentsCrossPlatform.Droid.Resource.Id.parallax;
+			global::Refractored.FabControl.Droid.Resource.Id.parentPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.parentPanel;
+			global::Refractored.FabControl.Droid.Resource.Id.pin = global::MyPaymentsCrossPlatform.Droid.Resource.Id.pin;
+			global::Refractored.FabControl.Droid.Resource.Id.progress_circular = global::MyPaymentsCrossPlatform.Droid.Resource.Id.progress_circular;
+			global::Refractored.FabControl.Droid.Resource.Id.progress_horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Id.progress_horizontal;
+			global::Refractored.FabControl.Droid.Resource.Id.radio = global::MyPaymentsCrossPlatform.Droid.Resource.Id.radio;
+			global::Refractored.FabControl.Droid.Resource.Id.right = global::MyPaymentsCrossPlatform.Droid.Resource.Id.right;
+			global::Refractored.FabControl.Droid.Resource.Id.right_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Id.right_icon;
+			global::Refractored.FabControl.Droid.Resource.Id.right_side = global::MyPaymentsCrossPlatform.Droid.Resource.Id.right_side;
+			global::Refractored.FabControl.Droid.Resource.Id.screen = global::MyPaymentsCrossPlatform.Droid.Resource.Id.screen;
+			global::Refractored.FabControl.Droid.Resource.Id.scroll = global::MyPaymentsCrossPlatform.Droid.Resource.Id.scroll;
+			global::Refractored.FabControl.Droid.Resource.Id.scrollIndicatorDown = global::MyPaymentsCrossPlatform.Droid.Resource.Id.scrollIndicatorDown;
+			global::Refractored.FabControl.Droid.Resource.Id.scrollIndicatorUp = global::MyPaymentsCrossPlatform.Droid.Resource.Id.scrollIndicatorUp;
+			global::Refractored.FabControl.Droid.Resource.Id.scrollView = global::MyPaymentsCrossPlatform.Droid.Resource.Id.scrollView;
+			global::Refractored.FabControl.Droid.Resource.Id.scrollable = global::MyPaymentsCrossPlatform.Droid.Resource.Id.scrollable;
+			global::Refractored.FabControl.Droid.Resource.Id.search_badge = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_badge;
+			global::Refractored.FabControl.Droid.Resource.Id.search_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.search_button = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_button;
+			global::Refractored.FabControl.Droid.Resource.Id.search_close_btn = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_close_btn;
+			global::Refractored.FabControl.Droid.Resource.Id.search_edit_frame = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_edit_frame;
+			global::Refractored.FabControl.Droid.Resource.Id.search_go_btn = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_go_btn;
+			global::Refractored.FabControl.Droid.Resource.Id.search_mag_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_mag_icon;
+			global::Refractored.FabControl.Droid.Resource.Id.search_plate = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_plate;
+			global::Refractored.FabControl.Droid.Resource.Id.search_src_text = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_src_text;
+			global::Refractored.FabControl.Droid.Resource.Id.search_voice_btn = global::MyPaymentsCrossPlatform.Droid.Resource.Id.search_voice_btn;
+			global::Refractored.FabControl.Droid.Resource.Id.select_dialog_listview = global::MyPaymentsCrossPlatform.Droid.Resource.Id.select_dialog_listview;
+			global::Refractored.FabControl.Droid.Resource.Id.shortcut = global::MyPaymentsCrossPlatform.Droid.Resource.Id.shortcut;
+			global::Refractored.FabControl.Droid.Resource.Id.showCustom = global::MyPaymentsCrossPlatform.Droid.Resource.Id.showCustom;
+			global::Refractored.FabControl.Droid.Resource.Id.showHome = global::MyPaymentsCrossPlatform.Droid.Resource.Id.showHome;
+			global::Refractored.FabControl.Droid.Resource.Id.showTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.showTitle;
+			global::Refractored.FabControl.Droid.Resource.Id.smallLabel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.smallLabel;
+			global::Refractored.FabControl.Droid.Resource.Id.snackbar_action = global::MyPaymentsCrossPlatform.Droid.Resource.Id.snackbar_action;
+			global::Refractored.FabControl.Droid.Resource.Id.snackbar_text = global::MyPaymentsCrossPlatform.Droid.Resource.Id.snackbar_text;
+			global::Refractored.FabControl.Droid.Resource.Id.snap = global::MyPaymentsCrossPlatform.Droid.Resource.Id.snap;
+			global::Refractored.FabControl.Droid.Resource.Id.spacer = global::MyPaymentsCrossPlatform.Droid.Resource.Id.spacer;
+			global::Refractored.FabControl.Droid.Resource.Id.split_action_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Id.split_action_bar;
+			global::Refractored.FabControl.Droid.Resource.Id.src_atop = global::MyPaymentsCrossPlatform.Droid.Resource.Id.src_atop;
+			global::Refractored.FabControl.Droid.Resource.Id.src_in = global::MyPaymentsCrossPlatform.Droid.Resource.Id.src_in;
+			global::Refractored.FabControl.Droid.Resource.Id.src_over = global::MyPaymentsCrossPlatform.Droid.Resource.Id.src_over;
+			global::Refractored.FabControl.Droid.Resource.Id.start = global::MyPaymentsCrossPlatform.Droid.Resource.Id.start;
+			global::Refractored.FabControl.Droid.Resource.Id.status_bar_latest_event_content = global::MyPaymentsCrossPlatform.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Refractored.FabControl.Droid.Resource.Id.submenuarrow = global::MyPaymentsCrossPlatform.Droid.Resource.Id.submenuarrow;
+			global::Refractored.FabControl.Droid.Resource.Id.submit_area = global::MyPaymentsCrossPlatform.Droid.Resource.Id.submit_area;
+			global::Refractored.FabControl.Droid.Resource.Id.tabMode = global::MyPaymentsCrossPlatform.Droid.Resource.Id.tabMode;
+			global::Refractored.FabControl.Droid.Resource.Id.text = global::MyPaymentsCrossPlatform.Droid.Resource.Id.text;
+			global::Refractored.FabControl.Droid.Resource.Id.text2 = global::MyPaymentsCrossPlatform.Droid.Resource.Id.text2;
+			global::Refractored.FabControl.Droid.Resource.Id.textSpacerNoButtons = global::MyPaymentsCrossPlatform.Droid.Resource.Id.textSpacerNoButtons;
+			global::Refractored.FabControl.Droid.Resource.Id.textSpacerNoTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.textSpacerNoTitle;
+			global::Refractored.FabControl.Droid.Resource.Id.text_input_password_toggle = global::MyPaymentsCrossPlatform.Droid.Resource.Id.text_input_password_toggle;
+			global::Refractored.FabControl.Droid.Resource.Id.textinput_counter = global::MyPaymentsCrossPlatform.Droid.Resource.Id.textinput_counter;
+			global::Refractored.FabControl.Droid.Resource.Id.textinput_error = global::MyPaymentsCrossPlatform.Droid.Resource.Id.textinput_error;
+			global::Refractored.FabControl.Droid.Resource.Id.time = global::MyPaymentsCrossPlatform.Droid.Resource.Id.time;
+			global::Refractored.FabControl.Droid.Resource.Id.title = global::MyPaymentsCrossPlatform.Droid.Resource.Id.title;
+			global::Refractored.FabControl.Droid.Resource.Id.titleDividerNoCustom = global::MyPaymentsCrossPlatform.Droid.Resource.Id.titleDividerNoCustom;
+			global::Refractored.FabControl.Droid.Resource.Id.title_template = global::MyPaymentsCrossPlatform.Droid.Resource.Id.title_template;
+			global::Refractored.FabControl.Droid.Resource.Id.top = global::MyPaymentsCrossPlatform.Droid.Resource.Id.top;
+			global::Refractored.FabControl.Droid.Resource.Id.topPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Id.topPanel;
+			global::Refractored.FabControl.Droid.Resource.Id.touch_outside = global::MyPaymentsCrossPlatform.Droid.Resource.Id.touch_outside;
+			global::Refractored.FabControl.Droid.Resource.Id.transition_current_scene = global::MyPaymentsCrossPlatform.Droid.Resource.Id.transition_current_scene;
+			global::Refractored.FabControl.Droid.Resource.Id.transition_scene_layoutid_cache = global::MyPaymentsCrossPlatform.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Refractored.FabControl.Droid.Resource.Id.up = global::MyPaymentsCrossPlatform.Droid.Resource.Id.up;
+			global::Refractored.FabControl.Droid.Resource.Id.useLogo = global::MyPaymentsCrossPlatform.Droid.Resource.Id.useLogo;
+			global::Refractored.FabControl.Droid.Resource.Id.view_offset_helper = global::MyPaymentsCrossPlatform.Droid.Resource.Id.view_offset_helper;
+			global::Refractored.FabControl.Droid.Resource.Id.visible = global::MyPaymentsCrossPlatform.Droid.Resource.Id.visible;
+			global::Refractored.FabControl.Droid.Resource.Id.volume_item_container = global::MyPaymentsCrossPlatform.Droid.Resource.Id.volume_item_container;
+			global::Refractored.FabControl.Droid.Resource.Id.withText = global::MyPaymentsCrossPlatform.Droid.Resource.Id.withText;
+			global::Refractored.FabControl.Droid.Resource.Id.wrap_content = global::MyPaymentsCrossPlatform.Droid.Resource.Id.wrap_content;
+			global::Refractored.FabControl.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Refractored.FabControl.Droid.Resource.Integer.abc_config_activityShortDur = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Refractored.FabControl.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Refractored.FabControl.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Refractored.FabControl.Droid.Resource.Integer.cancel_button_image_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Refractored.FabControl.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Refractored.FabControl.Droid.Resource.Integer.hide_password_duration = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.hide_password_duration;
+			global::Refractored.FabControl.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Refractored.FabControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Refractored.FabControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Refractored.FabControl.Droid.Resource.Integer.show_password_duration = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.show_password_duration;
+			global::Refractored.FabControl.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MyPaymentsCrossPlatform.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Refractored.FabControl.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::MyPaymentsCrossPlatform.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Refractored.FabControl.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MyPaymentsCrossPlatform.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_bar_title_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_bar_up_container = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_menu_item_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_menu_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_mode_bar = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_activity_chooser_view = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_alert_dialog_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_alert_dialog_title_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_dialog_title_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_expanded_menu_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_list_menu_item_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_list_menu_item_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_list_menu_item_radio = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_screen_content_include = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_screen_content_include;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_screen_simple = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_screen_simple;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_screen_toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_search_view = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_search_view;
+			global::Refractored.FabControl.Droid.Resource.Layout.abc_select_dialog_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_bottom_navigation_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_layout_snackbar = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_layout_snackbar;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_layout_snackbar_include = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_layout_tab_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_layout_tab_text = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_layout_tab_text;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_menu_item_action_area = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_item_header = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_item_header;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_item_separator = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_item_subheader = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_menu = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_menu;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_navigation_menu_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.design_text_input_password_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_chooser_dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_chooser_list_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_controller_material_dialog_b = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_controller_volume_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_playback_control = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_playback_control;
+			global::Refractored.FabControl.Droid.Resource.Layout.mr_volume_control = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.mr_volume_control;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_action = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_action;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_action_tombstone = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_action_tombstone;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_media_action = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_media_action;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_media_cancel_action = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_big_media = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_big_media;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_big_media_custom = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_big_media_narrow = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_custom_big = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_custom_big;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_icon_group = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_icon_group;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_lines_media = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_lines_media;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_media = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_media;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_media_custom = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_media_custom;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_part_chronometer = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Refractored.FabControl.Droid.Resource.Layout.notification_template_part_time = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.notification_template_part_time;
+			global::Refractored.FabControl.Droid.Resource.Layout.select_dialog_item_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.select_dialog_item_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.select_dialog_multichoice_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Refractored.FabControl.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MyPaymentsCrossPlatform.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Refractored.FabControl.Droid.Resource.String.ApplicationName = global::MyPaymentsCrossPlatform.Droid.Resource.String.ApplicationName;
+			global::Refractored.FabControl.Droid.Resource.String.Hello = global::MyPaymentsCrossPlatform.Droid.Resource.String.Hello;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_bar_home_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_bar_home_description;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_bar_home_description_format = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_bar_up_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_bar_up_description;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_menu_overflow_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Refractored.FabControl.Droid.Resource.String.abc_action_mode_done = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_action_mode_done;
+			global::Refractored.FabControl.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Refractored.FabControl.Droid.Resource.String.abc_activitychooserview_choose_application = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Refractored.FabControl.Droid.Resource.String.abc_capital_off = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_capital_off;
+			global::Refractored.FabControl.Droid.Resource.String.abc_capital_on = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_capital_on;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_body_1_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_body_2_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_button_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_button_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_caption_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_caption_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_display_1_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_display_2_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_display_3_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_display_4_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_headline_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_headline_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_menu_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_menu_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_subhead_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_font_family_title_material = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_font_family_title_material;
+			global::Refractored.FabControl.Droid.Resource.String.abc_search_hint = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_search_hint;
+			global::Refractored.FabControl.Droid.Resource.String.abc_searchview_description_clear = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_searchview_description_clear;
+			global::Refractored.FabControl.Droid.Resource.String.abc_searchview_description_query = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_searchview_description_query;
+			global::Refractored.FabControl.Droid.Resource.String.abc_searchview_description_search = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_searchview_description_search;
+			global::Refractored.FabControl.Droid.Resource.String.abc_searchview_description_submit = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_searchview_description_submit;
+			global::Refractored.FabControl.Droid.Resource.String.abc_searchview_description_voice = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_searchview_description_voice;
+			global::Refractored.FabControl.Droid.Resource.String.abc_shareactionprovider_share_with = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Refractored.FabControl.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Refractored.FabControl.Droid.Resource.String.abc_toolbar_collapse_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Refractored.FabControl.Droid.Resource.String.appbar_scrolling_view_behavior = global::MyPaymentsCrossPlatform.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Refractored.FabControl.Droid.Resource.String.bottom_sheet_behavior = global::MyPaymentsCrossPlatform.Droid.Resource.String.bottom_sheet_behavior;
+			global::Refractored.FabControl.Droid.Resource.String.character_counter_pattern = global::MyPaymentsCrossPlatform.Droid.Resource.String.character_counter_pattern;
+			global::Refractored.FabControl.Droid.Resource.String.mr_button_content_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_button_content_description;
+			global::Refractored.FabControl.Droid.Resource.String.mr_cast_button_connected = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_cast_button_connected;
+			global::Refractored.FabControl.Droid.Resource.String.mr_cast_button_connecting = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_cast_button_connecting;
+			global::Refractored.FabControl.Droid.Resource.String.mr_cast_button_disconnected = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Refractored.FabControl.Droid.Resource.String.mr_chooser_searching = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_chooser_searching;
+			global::Refractored.FabControl.Droid.Resource.String.mr_chooser_title = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_chooser_title;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_album_art = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_album_art;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_casting_screen = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_casting_screen;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_close_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_close_description;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_collapse_group = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_collapse_group;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_disconnect = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_disconnect;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_expand_group = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_expand_group;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_no_info_available = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_no_info_available;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_no_media_selected = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_pause = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_pause;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_play = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_play;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_stop = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_stop;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_stop_casting = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_stop_casting;
+			global::Refractored.FabControl.Droid.Resource.String.mr_controller_volume_slider = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_controller_volume_slider;
+			global::Refractored.FabControl.Droid.Resource.String.mr_system_route_name = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_system_route_name;
+			global::Refractored.FabControl.Droid.Resource.String.mr_user_route_category_name = global::MyPaymentsCrossPlatform.Droid.Resource.String.mr_user_route_category_name;
+			global::Refractored.FabControl.Droid.Resource.String.password_toggle_content_description = global::MyPaymentsCrossPlatform.Droid.Resource.String.password_toggle_content_description;
+			global::Refractored.FabControl.Droid.Resource.String.path_password_eye = global::MyPaymentsCrossPlatform.Droid.Resource.String.path_password_eye;
+			global::Refractored.FabControl.Droid.Resource.String.path_password_eye_mask_strike_through = global::MyPaymentsCrossPlatform.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Refractored.FabControl.Droid.Resource.String.path_password_eye_mask_visible = global::MyPaymentsCrossPlatform.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Refractored.FabControl.Droid.Resource.String.path_password_strike_through = global::MyPaymentsCrossPlatform.Droid.Resource.String.path_password_strike_through;
+			global::Refractored.FabControl.Droid.Resource.String.search_menu_title = global::MyPaymentsCrossPlatform.Droid.Resource.String.search_menu_title;
+			global::Refractored.FabControl.Droid.Resource.String.status_bar_notification_info_overflow = global::MyPaymentsCrossPlatform.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.AlertDialog_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Refractored.FabControl.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_CardView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_CardView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.CardView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.CardView;
+			global::Refractored.FabControl.Droid.Resource.Style.CardView_Dark = global::MyPaymentsCrossPlatform.Droid.Resource.Style.CardView_Dark;
+			global::Refractored.FabControl.Droid.Resource.Style.CardView_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.CardView_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V11_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V14_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V21_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Refractored.FabControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Counter = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Error = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Hint = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Design_Tab = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Refractored.FabControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MyPaymentsCrossPlatform.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_Design_NoActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_MediaRouter = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_MediaRouter;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_MediaRouter_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Refractored.FabControl.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Refractored.FabControl.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::MyPaymentsCrossPlatform.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_EditText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ListView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_NotificationActionText = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_NavigationView = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_Snackbar = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_TabLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Refractored.FabControl.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MyPaymentsCrossPlatform.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_background = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_background;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_displayOptions = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_divider = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_divider;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_height = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_height;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_homeLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_icon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_itemPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_logo = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_logo;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_navigationMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_popupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_title = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_title;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBarLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMenuItemView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMenuView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMenuView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_background = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_background;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_height = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_height;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActivityChooserView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActivityChooserView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_android_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_listLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_showTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_android_background = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_expanded = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayoutStates = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatImageView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatImageView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatImageView_tint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatSeekBar = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomNavigationView_menu = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ButtonBarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_android_minHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_android_minWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardElevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_contentPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ColorStateListItem = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ColorStateListItem;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ColorStateListItem_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ColorStateListItem_android_color = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CompoundButton = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CompoundButton;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CompoundButton_android_button = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Refractored.FabControl.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DesignTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DesignTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DesignTheme_textColorError = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Refractored.FabControl.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_shadow = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_shadow;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_fab_size = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_fab_size;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ForegroundLinearLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ListPopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ListPopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MediaRouteButton = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MediaRouteButton;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MediaRouteButton_buttonTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MediaRouteButton_buttonTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_id = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuGroup_android_visible = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_actionLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_checkable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_checked = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_enabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_id = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_onClick = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_title = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_android_visible = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuItem_showAsAction = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Refractored.FabControl.Droid.Resource.Styleable.MenuView_subMenuArrow = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_android_background = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_headerLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_itemBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.NavigationView_menu = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.NavigationView_menu;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindow = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindow;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Refractored.FabControl.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecycleListView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecycleListView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_spanCount = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Refractored.FabControl.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_android_focusable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_android_inputType = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_closeIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_commitIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_goIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_queryBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_queryHint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_searchIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_submitBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SearchView_voiceIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SnackbarLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SnackbarLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner_android_entries = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner_android_prompt = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Spinner_popupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_showText = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_track = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_trackTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabItem = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabItem;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabItem_android_icon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabItem_android_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabItem_android_text = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabItem_android_text;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabBackground = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabPadding = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_android_gravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_buttonGravity = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_logo = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_logo;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_logoDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_popupTheme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_subtitle = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_title = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_title;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMargin = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleMargins = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Refractored.FabControl.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View_android_focusable = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View_android_focusable;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View_android_theme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View_android_theme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View_paddingEnd = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View_paddingEnd;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View_paddingStart = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View_paddingStart;
+			global::Refractored.FabControl.Droid.Resource.Styleable.View_theme = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.View_theme;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewBackgroundHelper = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewStubCompat = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewStubCompat;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Refractored.FabControl.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MyPaymentsCrossPlatform.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MyPaymentsCrossPlatform.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -531,6 +2702,24 @@ namespace MyPaymentsCrossPlatform.Droid
 			
 			// aapt resource value: 0x7f010128
 			public const int fabSize = 2130772264;
+			
+			// aapt resource value: 0x7f010157
+			public const int fab_colorDisabled = 2130772311;
+			
+			// aapt resource value: 0x7f010156
+			public const int fab_colorNormal = 2130772310;
+			
+			// aapt resource value: 0x7f010155
+			public const int fab_colorPressed = 2130772309;
+			
+			// aapt resource value: 0x7f010158
+			public const int fab_colorRipple = 2130772312;
+			
+			// aapt resource value: 0x7f010159
+			public const int fab_shadow = 2130772313;
+			
+			// aapt resource value: 0x7f01015a
+			public const int fab_size = 2130772314;
 			
 			// aapt resource value: 0x7f01012d
 			public const int foregroundInsidePadding = 2130772269;
@@ -1173,44 +3362,44 @@ namespace MyPaymentsCrossPlatform.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
-			
 			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_light = 2131492939;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
 			
 			// aapt resource value: 0x7f0c004c
-			public const int abc_btn_colored_borderless_text_material = 2131492940;
+			public const int abc_background_cache_hint_selector_material_light = 2131492940;
 			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_text_material = 2131492941;
+			public const int abc_btn_colored_borderless_text_material = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_color_highlight_material = 2131492942;
+			public const int abc_btn_colored_text_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_hint_foreground_material_dark = 2131492943;
+			public const int abc_color_highlight_material = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_light = 2131492944;
+			public const int abc_hint_foreground_material_dark = 2131492944;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int abc_hint_foreground_material_light = 2131492945;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int abc_input_method_navigation_guard = 2131492869;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_primary_text_disable_only_material_dark = 2131492945;
-			
 			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_light = 2131492946;
+			public const int abc_primary_text_disable_only_material_dark = 2131492946;
 			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_material_dark = 2131492947;
+			public const int abc_primary_text_disable_only_material_light = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_light = 2131492948;
+			public const int abc_primary_text_material_dark = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_search_url_text = 2131492949;
+			public const int abc_primary_text_material_light = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_search_url_text = 2131492950;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int abc_search_url_text_normal = 2131492870;
@@ -1221,32 +3410,32 @@ namespace MyPaymentsCrossPlatform.Droid
 			// aapt resource value: 0x7f0c0008
 			public const int abc_search_url_text_selected = 2131492872;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_secondary_text_material_dark = 2131492950;
-			
 			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_light = 2131492951;
+			public const int abc_secondary_text_material_dark = 2131492951;
 			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_tint_btn_checkable = 2131492952;
+			public const int abc_secondary_text_material_light = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_default = 2131492953;
+			public const int abc_tint_btn_checkable = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_edittext = 2131492954;
+			public const int abc_tint_default = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_seek_thumb = 2131492955;
+			public const int abc_tint_edittext = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_spinner = 2131492956;
+			public const int abc_tint_seek_thumb = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_switch_thumb = 2131492957;
+			public const int abc_tint_spinner = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_switch_thumb = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_switch_track = 2131492959;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int accent_material_dark = 2131492873;
@@ -1305,8 +3494,8 @@ namespace MyPaymentsCrossPlatform.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int design_bottom_navigation_shadow_color = 2131492927;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0060
+			public const int design_error = 2131492960;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int design_fab_shadow_end_color = 2131492928;
@@ -1338,8 +3527,8 @@ namespace MyPaymentsCrossPlatform.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int design_textinput_error_color_light = 2131492937;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0061
+			public const int design_tint_password_toggle = 2131492961;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int dim_foreground_disabled_material_dark = 2131492887;
@@ -1352,6 +3541,9 @@ namespace MyPaymentsCrossPlatform.Droid
 			
 			// aapt resource value: 0x7f0c001a
 			public const int dim_foreground_material_light = 2131492890;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int fab_material_blue_500 = 2131492938;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int foreground_material_dark = 2131492891;
@@ -1458,11 +3650,11 @@ namespace MyPaymentsCrossPlatform.Droid
 			// aapt resource value: 0x7f0c003c
 			public const int switch_thumb_disabled_material_light = 2131492924;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
-			
 			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			public const int switch_thumb_material_dark = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int switch_thumb_material_light = 2131492963;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int switch_thumb_normal_material_dark = 2131492925;
@@ -1833,6 +4025,21 @@ namespace MyPaymentsCrossPlatform.Droid
 			
 			// aapt resource value: 0x7f07005b
 			public const int disabled_alpha_material_light = 2131165275;
+			
+			// aapt resource value: 0x7f070098
+			public const int fab_elevation_lollipop = 2131165336;
+			
+			// aapt resource value: 0x7f070097
+			public const int fab_scroll_threshold = 2131165335;
+			
+			// aapt resource value: 0x7f070096
+			public const int fab_shadow_size = 2131165334;
+			
+			// aapt resource value: 0x7f070095
+			public const int fab_size_mini = 2131165333;
+			
+			// aapt resource value: 0x7f070094
+			public const int fab_size_normal = 2131165332;
 			
 			// aapt resource value: 0x7f07005c
 			public const int highlight_alpha_material_colored = 2131165276;
@@ -2214,544 +4421,562 @@ namespace MyPaymentsCrossPlatform.Droid
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_action_settings = 2130837595;
+			public const int fab_shadow = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_dark = 2130837596;
+			public const int fab_shadow_mini = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_audiotrack_light = 2130837597;
+			public const int ic_action_ = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_dark = 2130837598;
+			public const int ic_action_add = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_dialog_close_light = 2130837599;
+			public const int ic_action_add_circle = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_00 = 2130837600;
+			public const int ic_action_control_point = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_01 = 2130837601;
+			public const int ic_action_settings = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_02 = 2130837602;
+			public const int ic_audiotrack_dark = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_03 = 2130837603;
+			public const int ic_audiotrack_light = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_04 = 2130837604;
+			public const int ic_dialog_close_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_05 = 2130837605;
+			public const int ic_dialog_close_light = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_06 = 2130837606;
+			public const int ic_group_collapse_00 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_07 = 2130837607;
+			public const int ic_group_collapse_01 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_08 = 2130837608;
+			public const int ic_group_collapse_02 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_09 = 2130837609;
+			public const int ic_group_collapse_03 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_10 = 2130837610;
+			public const int ic_group_collapse_04 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_11 = 2130837611;
+			public const int ic_group_collapse_05 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_12 = 2130837612;
+			public const int ic_group_collapse_06 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_13 = 2130837613;
+			public const int ic_group_collapse_07 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_14 = 2130837614;
+			public const int ic_group_collapse_08 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_15 = 2130837615;
+			public const int ic_group_collapse_09 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_00 = 2130837616;
+			public const int ic_group_collapse_10 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_01 = 2130837617;
+			public const int ic_group_collapse_11 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_02 = 2130837618;
+			public const int ic_group_collapse_12 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_03 = 2130837619;
+			public const int ic_group_collapse_13 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_04 = 2130837620;
+			public const int ic_group_collapse_14 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_05 = 2130837621;
+			public const int ic_group_collapse_15 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_06 = 2130837622;
+			public const int ic_group_expand_00 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_07 = 2130837623;
+			public const int ic_group_expand_01 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_08 = 2130837624;
+			public const int ic_group_expand_02 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_09 = 2130837625;
+			public const int ic_group_expand_03 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_10 = 2130837626;
+			public const int ic_group_expand_04 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_11 = 2130837627;
+			public const int ic_group_expand_05 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_12 = 2130837628;
+			public const int ic_group_expand_06 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_13 = 2130837629;
+			public const int ic_group_expand_07 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_14 = 2130837630;
+			public const int ic_group_expand_08 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_15 = 2130837631;
+			public const int ic_group_expand_09 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_dark = 2130837632;
+			public const int ic_group_expand_10 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_pause_light = 2130837633;
+			public const int ic_group_expand_11 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_dark = 2130837634;
+			public const int ic_group_expand_12 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play_light = 2130837635;
+			public const int ic_group_expand_13 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_dark = 2130837636;
+			public const int ic_group_expand_14 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_stop_light = 2130837637;
+			public const int ic_group_expand_15 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_dark = 2130837638;
+			public const int ic_media_pause_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_00_light = 2130837639;
+			public const int ic_media_pause_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_dark = 2130837640;
+			public const int ic_media_play_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_01_light = 2130837641;
+			public const int ic_media_play_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_dark = 2130837642;
+			public const int ic_media_stop_dark = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_02_light = 2130837643;
+			public const int ic_media_stop_light = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_dark = 2130837644;
+			public const int ic_mr_button_connected_00_dark = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_03_light = 2130837645;
+			public const int ic_mr_button_connected_00_light = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_dark = 2130837646;
+			public const int ic_mr_button_connected_01_dark = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_04_light = 2130837647;
+			public const int ic_mr_button_connected_01_light = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_dark = 2130837648;
+			public const int ic_mr_button_connected_02_dark = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_05_light = 2130837649;
+			public const int ic_mr_button_connected_02_light = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_dark = 2130837650;
+			public const int ic_mr_button_connected_03_dark = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_06_light = 2130837651;
+			public const int ic_mr_button_connected_03_light = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_dark = 2130837652;
+			public const int ic_mr_button_connected_04_dark = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_07_light = 2130837653;
+			public const int ic_mr_button_connected_04_light = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_dark = 2130837654;
+			public const int ic_mr_button_connected_05_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_08_light = 2130837655;
+			public const int ic_mr_button_connected_05_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_dark = 2130837656;
+			public const int ic_mr_button_connected_06_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_09_light = 2130837657;
+			public const int ic_mr_button_connected_06_light = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_dark = 2130837658;
+			public const int ic_mr_button_connected_07_dark = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_10_light = 2130837659;
+			public const int ic_mr_button_connected_07_light = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_dark = 2130837660;
+			public const int ic_mr_button_connected_08_dark = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_11_light = 2130837661;
+			public const int ic_mr_button_connected_08_light = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_dark = 2130837662;
+			public const int ic_mr_button_connected_09_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_12_light = 2130837663;
+			public const int ic_mr_button_connected_09_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_dark = 2130837664;
+			public const int ic_mr_button_connected_10_dark = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_13_light = 2130837665;
+			public const int ic_mr_button_connected_10_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_dark = 2130837666;
+			public const int ic_mr_button_connected_11_dark = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_14_light = 2130837667;
+			public const int ic_mr_button_connected_11_light = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_dark = 2130837668;
+			public const int ic_mr_button_connected_12_dark = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_15_light = 2130837669;
+			public const int ic_mr_button_connected_12_light = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_dark = 2130837670;
+			public const int ic_mr_button_connected_13_dark = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_16_light = 2130837671;
+			public const int ic_mr_button_connected_13_light = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_dark = 2130837672;
+			public const int ic_mr_button_connected_14_dark = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_17_light = 2130837673;
+			public const int ic_mr_button_connected_14_light = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_dark = 2130837674;
+			public const int ic_mr_button_connected_15_dark = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_18_light = 2130837675;
+			public const int ic_mr_button_connected_15_light = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_dark = 2130837676;
+			public const int ic_mr_button_connected_16_dark = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_19_light = 2130837677;
+			public const int ic_mr_button_connected_16_light = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_dark = 2130837678;
+			public const int ic_mr_button_connected_17_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_20_light = 2130837679;
+			public const int ic_mr_button_connected_17_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_dark = 2130837680;
+			public const int ic_mr_button_connected_18_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_21_light = 2130837681;
+			public const int ic_mr_button_connected_18_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_dark = 2130837682;
+			public const int ic_mr_button_connected_19_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_22_light = 2130837683;
+			public const int ic_mr_button_connected_19_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connecting_00_dark = 2130837684;
+			public const int ic_mr_button_connected_20_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connecting_00_light = 2130837685;
+			public const int ic_mr_button_connected_20_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connecting_01_dark = 2130837686;
+			public const int ic_mr_button_connected_21_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connecting_01_light = 2130837687;
+			public const int ic_mr_button_connected_21_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connecting_02_dark = 2130837688;
+			public const int ic_mr_button_connected_22_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connecting_02_light = 2130837689;
+			public const int ic_mr_button_connected_22_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connecting_03_dark = 2130837690;
+			public const int ic_mr_button_connecting_00_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connecting_03_light = 2130837691;
+			public const int ic_mr_button_connecting_00_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connecting_04_dark = 2130837692;
+			public const int ic_mr_button_connecting_01_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connecting_04_light = 2130837693;
+			public const int ic_mr_button_connecting_01_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connecting_05_dark = 2130837694;
+			public const int ic_mr_button_connecting_02_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connecting_05_light = 2130837695;
+			public const int ic_mr_button_connecting_02_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connecting_06_dark = 2130837696;
+			public const int ic_mr_button_connecting_03_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connecting_06_light = 2130837697;
+			public const int ic_mr_button_connecting_03_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connecting_07_dark = 2130837698;
+			public const int ic_mr_button_connecting_04_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_07_light = 2130837699;
+			public const int ic_mr_button_connecting_04_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_08_dark = 2130837700;
+			public const int ic_mr_button_connecting_05_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_08_light = 2130837701;
+			public const int ic_mr_button_connecting_05_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_09_dark = 2130837702;
+			public const int ic_mr_button_connecting_06_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_09_light = 2130837703;
+			public const int ic_mr_button_connecting_06_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_10_dark = 2130837704;
+			public const int ic_mr_button_connecting_07_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_10_light = 2130837705;
+			public const int ic_mr_button_connecting_07_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_11_dark = 2130837706;
+			public const int ic_mr_button_connecting_08_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_11_light = 2130837707;
+			public const int ic_mr_button_connecting_08_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_12_dark = 2130837708;
+			public const int ic_mr_button_connecting_09_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_12_light = 2130837709;
+			public const int ic_mr_button_connecting_09_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_13_dark = 2130837710;
+			public const int ic_mr_button_connecting_10_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_13_light = 2130837711;
+			public const int ic_mr_button_connecting_10_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_14_dark = 2130837712;
+			public const int ic_mr_button_connecting_11_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_14_light = 2130837713;
+			public const int ic_mr_button_connecting_11_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_15_dark = 2130837714;
+			public const int ic_mr_button_connecting_12_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_15_light = 2130837715;
+			public const int ic_mr_button_connecting_12_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_16_dark = 2130837716;
+			public const int ic_mr_button_connecting_13_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_16_light = 2130837717;
+			public const int ic_mr_button_connecting_13_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_17_dark = 2130837718;
+			public const int ic_mr_button_connecting_14_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_17_light = 2130837719;
+			public const int ic_mr_button_connecting_14_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_18_dark = 2130837720;
+			public const int ic_mr_button_connecting_15_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_18_light = 2130837721;
+			public const int ic_mr_button_connecting_15_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_19_dark = 2130837722;
+			public const int ic_mr_button_connecting_16_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_19_light = 2130837723;
+			public const int ic_mr_button_connecting_16_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_20_dark = 2130837724;
+			public const int ic_mr_button_connecting_17_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_20_light = 2130837725;
+			public const int ic_mr_button_connecting_17_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_21_dark = 2130837726;
+			public const int ic_mr_button_connecting_18_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_21_light = 2130837727;
+			public const int ic_mr_button_connecting_18_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_22_dark = 2130837728;
+			public const int ic_mr_button_connecting_19_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_22_light = 2130837729;
+			public const int ic_mr_button_connecting_19_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_disabled_dark = 2130837730;
+			public const int ic_mr_button_connecting_20_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_disabled_light = 2130837731;
+			public const int ic_mr_button_connecting_20_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_disconnected_dark = 2130837732;
+			public const int ic_mr_button_connecting_21_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_disconnected_light = 2130837733;
+			public const int ic_mr_button_connecting_21_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_grey = 2130837734;
+			public const int ic_mr_button_connecting_22_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_vol_type_speaker_dark = 2130837735;
+			public const int ic_mr_button_connecting_22_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_vol_type_speaker_group_dark = 2130837736;
+			public const int ic_mr_button_disabled_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_vol_type_speaker_group_light = 2130837737;
+			public const int ic_mr_button_disabled_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_vol_type_speaker_light = 2130837738;
+			public const int ic_mr_button_disconnected_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_vol_type_tv_dark = 2130837739;
+			public const int ic_mr_button_disconnected_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_vol_type_tv_light = 2130837740;
+			public const int ic_mr_button_grey = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int icon = 2130837741;
+			public const int ic_vol_type_speaker_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int mr_button_connected_dark = 2130837742;
+			public const int ic_vol_type_speaker_group_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int mr_button_connected_light = 2130837743;
+			public const int ic_vol_type_speaker_group_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int mr_button_connecting_dark = 2130837744;
+			public const int ic_vol_type_speaker_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int mr_button_connecting_light = 2130837745;
+			public const int ic_vol_type_tv_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int mr_button_dark = 2130837746;
+			public const int ic_vol_type_tv_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int mr_button_light = 2130837747;
+			public const int icon = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int mr_dialog_close_dark = 2130837748;
+			public const int mr_button_connected_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int mr_dialog_close_light = 2130837749;
+			public const int mr_button_connected_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int mr_dialog_material_background_dark = 2130837750;
+			public const int mr_button_connecting_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int mr_dialog_material_background_light = 2130837751;
+			public const int mr_button_connecting_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int mr_group_collapse = 2130837752;
+			public const int mr_button_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int mr_group_expand = 2130837753;
+			public const int mr_button_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int mr_media_pause_dark = 2130837754;
+			public const int mr_dialog_close_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int mr_media_pause_light = 2130837755;
+			public const int mr_dialog_close_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int mr_media_play_dark = 2130837756;
+			public const int mr_dialog_material_background_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int mr_media_play_light = 2130837757;
+			public const int mr_dialog_material_background_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int mr_media_stop_dark = 2130837758;
+			public const int mr_group_collapse = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int mr_media_stop_light = 2130837759;
+			public const int mr_group_expand = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int mr_vol_type_audiotrack_dark = 2130837760;
+			public const int mr_media_pause_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int mr_vol_type_audiotrack_light = 2130837761;
+			public const int mr_media_pause_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int navigation_empty_icon = 2130837762;
+			public const int mr_media_play_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int notification_action_background = 2130837763;
+			public const int mr_media_play_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int notification_bg = 2130837764;
+			public const int mr_media_stop_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int notification_bg_low = 2130837765;
+			public const int mr_media_stop_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int notification_bg_low_normal = 2130837766;
+			public const int mr_vol_type_audiotrack_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int notification_bg_low_pressed = 2130837767;
+			public const int mr_vol_type_audiotrack_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int notification_bg_normal = 2130837768;
+			public const int navigation_empty_icon = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int notification_bg_normal_pressed = 2130837769;
+			public const int notification_action_background = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int notification_icon_background = 2130837770;
-			
-			// aapt resource value: 0x7f02010d
-			public const int notification_template_icon_bg = 2130837773;
-			
-			// aapt resource value: 0x7f02010e
-			public const int notification_template_icon_low_bg = 2130837774;
+			public const int notification_bg = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int notification_tile_bg = 2130837771;
+			public const int notification_bg_low = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int notify_panel_notification_icon_bg = 2130837772;
+			public const int notification_bg_low_normal = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int notification_bg_low_pressed = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int notification_bg_normal = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int notification_bg_normal_pressed = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int notification_icon_background = 2130837776;
+			
+			// aapt resource value: 0x7f020113
+			public const int notification_template_icon_bg = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int notification_template_icon_low_bg = 2130837780;
+			
+			// aapt resource value: 0x7f020111
+			public const int notification_tile_bg = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int notify_panel_notification_icon_bg = 2130837778;
 			
 			static Drawable()
 			{
@@ -3609,6 +5834,12 @@ namespace MyPaymentsCrossPlatform.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f09003f
+			public const int ApplicationName = 2131296319;
+			
+			// aapt resource value: 0x7f09003e
+			public const int Hello = 2131296318;
 			
 			// aapt resource value: 0x7f090015
 			public const int abc_action_bar_home_description = 2131296277;
@@ -6080,7 +8311,13 @@ namespace MyPaymentsCrossPlatform.Droid
 					2130772264,
 					2130772265,
 					2130772266,
-					2130772267};
+					2130772267,
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772314};
 			
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTint = 1;
@@ -6096,6 +8333,24 @@ namespace MyPaymentsCrossPlatform.Droid
 			
 			// aapt resource value: 4
 			public const int FloatingActionButton_fabSize = 4;
+			
+			// aapt resource value: 10
+			public const int FloatingActionButton_fab_colorDisabled = 10;
+			
+			// aapt resource value: 9
+			public const int FloatingActionButton_fab_colorNormal = 9;
+			
+			// aapt resource value: 8
+			public const int FloatingActionButton_fab_colorPressed = 8;
+			
+			// aapt resource value: 11
+			public const int FloatingActionButton_fab_colorRipple = 11;
+			
+			// aapt resource value: 12
+			public const int FloatingActionButton_fab_shadow = 12;
+			
+			// aapt resource value: 13
+			public const int FloatingActionButton_fab_size = 13;
 			
 			// aapt resource value: 5
 			public const int FloatingActionButton_pressedTranslationZ = 5;

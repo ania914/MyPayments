@@ -2,21 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MyPaymentsCrossPlatform"
+             xmlns:fab="clr-namespace:Refractored.FabControl;assembly=Refractored.FabControl"
              x:Class="MyPaymentsCrossPlatform.MainPage"
              Title="My Payments">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Options" Order="Primary" Priority="0" Icon="ic_action_settings.png"/>
     </ContentPage.ToolbarItems>
-    <ListView x:Name="addressListView" Margin="5" ItemSelected="OnListItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                        <Label Text="{Binding FullAddress}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>        
-    </ListView>
+    <ContentPage.Content>
+        <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <ListView x:Name="addressListView" Margin="5" ItemSelected="OnListItemSelected"
+                      AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding FullAddress}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <fab:FloatingActionButtonView
+				ColorNormal="Green"
+				ColorPressed="DarkGreen"
+				ColorRipple="LightGreen"
+				x:Name="FloatingActionButtonAdd"
+				IsVisible="True"
+                ImageName="ic_action_add.png"
+				AbsoluteLayout.LayoutFlags="PositionProportional"
+				AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize">
+            </fab:FloatingActionButtonView>
+        </AbsoluteLayout>
+    </ContentPage.Content>
 </ContentPage>

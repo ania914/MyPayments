@@ -1,6 +1,7 @@
 ﻿using DataLayer;
 using System;
 using Xamarin.Forms;
+using System.Threading.Tasks;
 
 namespace MyPaymentsCrossPlatform
 {
@@ -9,6 +10,7 @@ namespace MyPaymentsCrossPlatform
         public MainPage()
         {
             InitializeComponent();
+            FloatingActionButtonAdd.Command = new Command(addNewAddress);
         }
         protected override async void OnAppearing()
         {
@@ -25,6 +27,13 @@ namespace MyPaymentsCrossPlatform
             {
 
             }
+        }
+
+        async void addNewAddress()
+        {
+            var address = new Address() { FullAddress = "Test address" };
+            App.Database.Save(address);
+            addressListView.ItemsSource = await App.Database.GetAll<Address>(true);
         }
 
         async void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
