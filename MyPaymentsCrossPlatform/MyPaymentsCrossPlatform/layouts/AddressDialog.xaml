@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyPaymentsCrossPlatform.layouts.AddressDialog">
+  <ContentView.Content>
+        <StackLayout Orientation="Vertical"
+             BackgroundColor="White"
+             HeightRequest="175"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Start"
+             Margin="0,20,0,0" >
+
+        <Label BackgroundColor="Black"
+         FontSize="18"
+         TextColor="White"
+         HorizontalOptions="Fill"
+         Text="Add new address" />
+                     
+        <Entry x:Name="EnteredAddress"
+         Placeholder="Address"
+         TextColor="Black"
+         VerticalOptions="CenterAndExpand"
+         HorizontalOptions="Center"
+         WidthRequest="250" />
+
+            <StackLayout Orientation="Horizontal"
+               HorizontalOptions="Center">
+
+                <Button Text="Cancel" FontSize="Large"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnCancelButtonClicked"/>
+
+                <Button Text="OK" FontSize="Large"
+                  VerticalOptions="CenterAndExpand"
+                  HorizontalOptions="Center"
+                  Clicked="OnOKButtonClicked" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentPage>
