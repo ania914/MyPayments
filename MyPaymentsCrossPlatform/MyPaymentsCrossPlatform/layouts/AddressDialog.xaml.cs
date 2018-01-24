@@ -27,7 +27,11 @@ namespace MyPaymentsCrossPlatform.layouts
                 return;
             }
             var address = new Address() { FullAddress = EnteredAddress.Text };
-            App.Database.Save(address);
+            var id = await App.Database.Save(address);
+            // Add default utility bills
+            var water = new UtilityBill() { Address = address, IdAddress = id, Name = "Water" };
+            var gas = new UtilityBill() { Address = address, IdAddress = id, Name = "Gas" };
+            var electricity = new UtilityBill() { Address = address, IdAddress = id, Name = "Electricity" };
             await Navigation.PopModalAsync();
         }
     }

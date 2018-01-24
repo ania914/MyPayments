@@ -5934,6 +5934,9 @@ namespace MyPaymentsCrossPlatform.Droid
 			// aapt resource value: 0x7f090027
 			public const int abc_toolbar_collapse_description = 2131296295;
 			
+			// aapt resource value: 0x7f090040
+			public const int app_name = 2131296320;
+			
 			// aapt resource value: 0x7f090036
 			public const int appbar_scrolling_view_behavior = 2131296310;
 			

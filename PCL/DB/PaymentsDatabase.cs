@@ -42,14 +42,18 @@ namespace DataLayer
         public Task<T> GetById<T>(int id) where T : Entity, new()
             => db.Table<T>().Where(t => t.Id == id).FirstOrDefaultAsync();
 
-        public void Save<T>(T item, bool withChildren = false) where T : Entity, new()
+        public Task<int> Save<T>(T item, bool withChildren = false) where T : Entity, new()
         {
             if (item.IsNew)
             {
-                if (withChildren) db.InsertWithChildrenAsync(item);
-                else db.InsertAsync(item);
+                if (withChildren)
+                {
+                    db.InsertWithChildrenAsync(item);
+                    return new Task<int>(()=> { return 0; });
+                }
+                else return db.InsertAsync(item);
             }
-            else db.UpdateAsync(item);
+            else return db.UpdateAsync(item);
         }
 
         public Task<int> Delete<T>(T item) where T : Entity, new()
